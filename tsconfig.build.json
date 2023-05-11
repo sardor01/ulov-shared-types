@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "removeComments": false,
+    "typeRoots": ["./node_modules/@types"]
+  }
+}
